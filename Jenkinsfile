@@ -33,7 +33,7 @@ spec:
                 container('busybox') {
                    script{
                        try {
-                           sh 'exit 1'
+                           sh 'exit 0'
                        }
                        catch (exc){
                            echo 'somthing failed'
